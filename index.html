@@ -687,6 +687,54 @@
 		    </a>
      
  		<body>
+  <!-- New Script for Intro Overlay -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const overlay = document.createElement('div');
+        overlay.id = 'intro-overlay';
+        overlay.innerHTML = '<p>adam is the flipping goat and spent money on this website for YOU so u better thank him like a good lil boy</p>';
+        overlay.style.position = 'fixed';
+        overlay.style.top = '0';
+        overlay.style.left = '0';
+        overlay.style.width = '100vw';
+        overlay.style.height = '100vh';
+        overlay.style.background = 'black';
+        overlay.style.color = 'white';
+        overlay.style.fontSize = '1.5rem';
+        overlay.style.display = 'flex';
+        overlay.style.justifyContent = 'center';
+        overlay.style.alignItems = 'center';
+        overlay.style.zIndex = '9999';
+        overlay.style.transition = 'opacity 1s ease';
+        document.body.appendChild(overlay);
+
+        setTimeout(() => {
+            overlay.style.opacity = '0';
+            setTimeout(() => overlay.remove(), 1000);
+        }, 3000); // Stays for 3 seconds
+    });
+  </script>
+
+  <!-- Your Existing Content Below -->
+  <h2>Unblocked Games – Play Anywhere Without Restrictions with Only Games</h2>
+  <p>You can play your favourite games without running into annoying filters? <a href="https://only-games.github.io/" target="_blank" style="color: orange;">Only Games</a> is the perfect spot. We mainly designed this platform to give you seamless, ad-free gaming experiences that don’t require any downloads. Whether you’re on a school network, a Chromebook, or even at work, Only Games makes sure you can enjoy the best <a href="https://only-games.github.io/" target="_blank" style="color: orange;">Unblocked Games</a> hassle-free. With Unblocked Games 6x, you get instant access to the fun, no matter where you are!</p>
+  
+  <!-- Your Footer Section and Other Content Follows -->
+  <footer style="background-color: #1a237e; color: #fff; padding: 40px 0; font-family: Arial, sans-serif;">
+    <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 15px;">
+      <!-- Footer Content -->
+    </div>
+  </footer>
+
+  <!-- Footer Style -->
+  <style>
+    .footer-section a:hover {
+      color: #4dabf7 !important;
+      text-decoration: underline !important;
+    }
+  </style>
+</body>
+
      <h2>Unblocked Games – Play Anywhere Without Restrictions with Only Games</h2>
      <p>You can play your favourite games without running into annoying filters? <a href="https://only-games.github.io/" target="_blank" style="color: orange;>Only Games</a> is the perfect spot. We mainly designed this platform to give you seamless, ad-free gaming experiences that don’t require any downloads. Whether you’re on a school network, a Chromebook, or even at work,Only Games makes sure you can enjoy the best <a href="https://only-games.github.io/" target="_blank" style="color: orange;>Unblocked Games</a> hassle-free. With Unblocked Games 6x, you get instant access to the fun, no matter where you are!</p>
  <footer style="background-color: #1a237e; color: #fff; padding: 40px 0; font-family: Arial, sans-serif;">
